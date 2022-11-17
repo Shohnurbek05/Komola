@@ -1,0 +1,71 @@
+.hero {
+    background: url(../images/header_bg.jpg) no-repeat center / cover;
+}
+
+.pricing .card, .pricing .card .price {
+    transition: 500ms;
+}
+
+.pricing .card:hover {
+    border-color: var(--bs-danger) !important;
+    cursor: pointer;
+}
+
+.pricing .card:hover .price {
+    background: var(--bs-danger) !important;
+    color: #fff !important;
+}
+
+.p-card-hover {
+    background: rgba(255, 255, 255, 0.59);
+    opacity: 0;
+    transition: 500ms;
+}
+
+.p-card:hover .p-card-hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .hero .title {
+        width: 100% !important;
+    }
+
+    .hero .text {
+        width: 100% !important;
+    }
+
+    .service .text {
+        width: 100% !important;
+    }
+}
+
+.footer {
+    background: #1f2c33;
+}
+
+.input::placeholder {
+    color: #1f2c33;
+}
+
+.bottom {
+    background: #283645;
+}
+
+.buttoncha {
+    transform: translateX(-10px);
+    width: 40%;
+}
+
+.form {
+    width: 100% !important;
+}
+
+.input {
+    outline: none !important;
+}
